@@ -124,3 +124,16 @@ else:
     print(f"{left_over}h of freetime!")
 print("end of day")
 
+# indentation and nested branching
+# matters in Python
+# How you denote blocks of code:
+x = float(input())
+y = float(input())
+if x==y:
+    print("x and y are equal")
+    if y!=0:
+        print(f"x/y = {x/y}")
+elif x < y:
+    print("x is smaller")
+else:
+    print("y is smaller")
