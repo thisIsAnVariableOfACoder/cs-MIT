@@ -106,5 +106,9 @@ print((7==11) or (12>10))
 #   <code>
 #   <code>
 #   ...
+# the rest of the code
+# Run the first block whose corresponding <condition> is True
+# notice:
 # <condition> has a value of True or False
 # indentation matters in Python
+
