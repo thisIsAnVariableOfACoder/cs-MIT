@@ -113,3 +113,14 @@ print((7==11) or (12>10))
 # <condition> has a value of True or False
 # indentation matters in Python
 
+pset_time = 12
+sleep_time = 2
+if (pset_time + sleep_time > 24):
+    print("impossible!")
+elif (pset_time + sleep_time == 24):
+    print("full schedule")
+else:
+    left_over = 24-pset_time-sleep_time
+    print(f"{left_over}h of freetime!")
+print("end of day")
+
