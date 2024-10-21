@@ -74,3 +74,4 @@ print(not (2<3))
 print((9>8) and (5<4))
 print((7==11) or (12>10))
 
+#branching in python
