@@ -75,3 +75,36 @@ print((9>8) and (5<4))
 print((7==11) or (12>10))
 
 #branching in python
+# type 1:
+# if <condition>:
+#   <code>
+#   <code>
+#   ...
+# the rest of the code
+# Do code withtin if block when condition is True
+# type 2:
+# if <condition>:
+#   <code>
+#   <code>
+#   ...
+# else:
+#   <code>
+#   <code>
+#   ...
+# the rest of the code
+# Do code withtin if block when condition is True or code within else block when condition is False
+# type 3:
+# if <condition>:
+#   <code>
+#   <code>
+#   ...
+# elif <condition>:
+#   <code>
+#   <code>
+#   ...
+# else:
+#   <code>
+#   <code>
+#   ...
+# <condition> has a value of True or False
+# indentation matters in Python
