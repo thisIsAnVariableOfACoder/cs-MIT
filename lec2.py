@@ -108,6 +108,7 @@ print((7==11) or (12>10))
 #   ...
 # the rest of the code
 # Run the first block whose corresponding <condition> is True
+# the else block runs when no condition is True
 # notice:
 # <condition> has a value of True or False
 # indentation matters in Python
